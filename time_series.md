@@ -32,11 +32,12 @@ computer science ανά έτος. Στην συνεχεία θα ασχοληθ�
 προσθετικό και το πολλαπλασιαστικό μοντέλο, όπου το προσθετικό είναι της
 μορφής :
 
-Y_{t} = T_{t} + S_{t} + C_{t} + R_{t}$
+<img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/1.png" alt="Time series">
+
 
 Καθώς και το πολλαπλασιαστικό : 
 
-Y_{t} = T_{t}*S_{t}*C_{t}*R_{t}$
+<img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/2.png" alt="Time series">
 
 Όπου Y_{t} είναι η τιμή της μεταβλητής, S_{t} είναι η
 εποχιακή συνιστώσα , C_{t} η κυκλική συνιστώσα και R_{t} είναι
@@ -54,12 +55,8 @@ Y_{t} = T_{t}*S_{t}*C_{t}*R_{t}$
 δυο χρονικά σημεία και όχι από τον ίδιο το χρόνο. Αν μια χρονολογική
 σειρά είναι στάσιμη, τότε για όλα τα t θα ισχύουν :*
 
--   <math class=chem>(*$y_{t}$*)=* $\mu_{y}</math>,
 
--   <math class=chem> *var(*$y_{t}$*)=E*$\lbrack y_{t} - E(y_{t})\rbrack^{2}$</math>
-
--   <math class=chem> *cov*${(y}_{t},y_{t + k})$ *= cov*${(y}_{t + m},y_{t + m + k})$</math>
-
+<img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/3.png" alt="Time series">
 
 όπου οι δυο πρώτες συνθήκες υποδηλώνουν σταθερό μέση και σαθρή
 διακύμανση . Η τρίτη δηλώνει ότι η συνδιακύμανση μεταξύ δυο οποιονδήποτε
@@ -111,7 +108,9 @@ command line ενός Ubuntu Server καθώς και η επεξεργασία 
 Αυτοπαλινδρομο υπόδειγμα p τάξης συμβολίζετε με AR(p) και εκφράζετε από
 την σχέση : 
 
- <math class=chem> $$Y_{t} = \alpha_{0} + \alpha_{1}Y_{t - 1} + \alpha_{2}Y_{t - 2} + \ldots + \alpha_{p}Y_{t - p} + \varepsilon_{t}$$</math>
+
+<img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/4.png" alt="Time series">
+
 
 Όπου* $\alpha_{\iota}$ *με* $\ i \in \lbrack 0,p\rbrack$ *είναι η
 σταθεροί παράμετροι και* $\varepsilon_{t}$ *ο όποιος μετρά τυχαία
@@ -124,8 +123,9 @@ $Y_{t}$ *παλινδρομείται στης προηγούμενες τιμέ
 
 Ένα υπόδειγμα κινητού μέσου q τάξης συμβολίζεται με MA(q) και εκφράζετε
 από την σχέση :
+<img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/5.png" alt="Time series">
 
- <math class=chem>$$\Upsilon_{\tau} = \varepsilon_{t} - \theta_{1}\varepsilon_{t - 1} - \theta_{2}\varepsilon_{t - 2} - \ldots - \theta_{q}\varepsilon_{t - q}$$</math>
+
 
 Όπου* $\theta_{i}$ *με* $i \in \lbrack 0,q\rbrack$ *οι σταθεροί
 παράμετροι και* $\varepsilon_{t}\ $*τα τυχαία σφάλματα .Στην διαδικασία
@@ -152,11 +152,9 @@ $Η_{1}$:α\<1 Τότε συμπεραίνουμε ότι έχουμε μονα�
 σειρά είναι στάσιμη
 
 ***Πινάκας 4.1***
+<img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/6.png" alt="Time series">
 
-  *Έλεγχος *                  *P-value*   *Στατιστική συνάρτηση-Τ*
-  --------------------------- ----------- --------------------------
-  Dickey-Fuller               *0.8379*    *-1.3596*
-  Phillips-Perron Unit Root   *0.737*     *-6.4766*
+
 
 Και τα δύο τεστ συμφωνούν στο γεγονός μη επαρκούς ένδειξης απόρριψης της
 μηδενικής υπόθεσης, η χρονοσειρά ενδέχεται να έχει μοναδιαία ρίζα. Αυτό
@@ -363,14 +361,14 @@ $Ε\left( y_{t} \right) = y_{0}$*.Η διακύμανση της και οι σ�
 περιλαμβάνει και τον σταθερό ορό αυτόν τότε έχουμε υπόδειγμα τυχαίας
 διαδρομής με σταθερά . Όπου β (drift) είναι η σταθερά της παρακάτω
 εξίσωσης .
+<img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/7.png" alt="Time series">
 
-$\Delta_{y_{t}} = \beta + \varepsilon_{t}$ *(4)*
 
 *Είναι σημαντικό να αναφέρουμε ότι ,σε σύγκριση με το υπόδειγμα τυχαίας
 διαδρομής , οι πρώτες διαφορές στο υπόδειγμα με σταθερά είναι εν μέρει
 στοχαστικές και εν μέρει σταθερές .*
 
-$y_{t} = y_{0} + \beta t + \sum_{i = 1}^{t}\varepsilon_{i}$ *(5)*
+<img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/8.png" alt="Time series">
 
 ***Διάγραμμα 4.2*** : qqplot καταλοίπων 
 <img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/PLOT%20RESIDUALS%20RWF.png" alt="Time series">
@@ -389,11 +387,8 @@ $y_{t} = y_{0} + \beta t + \sum_{i = 1}^{t}\varepsilon_{i}$ *(5)*
 να είναι 0.03760 αρκετά μικρότερο από όλα τα αλλά υποδείγματα .*
 
 ***Πινάκας 7.1***
+<img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/9.png" alt="Time series">
 
-  *Υπόδειγμα*   *ARIMA*   *Εκθετική εξομάλυνση *   *Τυχαίας διαδρομής*
-  ------------- --------- ------------------------ ---------------------
-  *Train Set*   0.2835    *0.3355 *                *0.3328*
-  *Test set *   0.0738    *0.4198*                 *0.03760*
 
 8.  ***Εξαγωγή δεδομένων***
 
