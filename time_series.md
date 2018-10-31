@@ -81,7 +81,7 @@ command line ενός Ubuntu Server καθώς και η επεξεργασία 
 εμφάνισης κάθε χρονιάς .Έπειτα συνεχίσαμε με την ανάλυση της
 χρονολογικής σειράς καθώς και την πρόβλεψη της.*
 
-Διάγραμμα 3.1
+***Διάγραμμα 3.1***
 
 <img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/Ndata.png" alt="Time series">
 
@@ -96,7 +96,7 @@ command line ενός Ubuntu Server καθώς και η επεξεργασία 
 απεικονίσει . Μια καλή κλίμακα για να φάνουνε οι μετατοπίσεις αυτές,
 είναι η λογαριθμική κλίμακα .
 
-Διάγραμμα 3.2
+***Διάγραμμα 3.2***
 
 <img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/logNdata.png" alt="Time series">
 
@@ -151,7 +151,7 @@ Dickey-Fuller (αντίστοιχα για το Phillips-Perron).αν δεν έ�
 $Η_{1}$:α\<1 Τότε συμπεραίνουμε ότι έχουμε μοναδιαία ρίζα και άρα η
 σειρά είναι στάσιμη
 
-Πινάκας 4.1
+***Πινάκας 4.1***
 
   *Έλεγχος *                  *P-value*   *Στατιστική συνάρτηση-Τ*
   --------------------------- ----------- --------------------------
@@ -171,7 +171,7 @@ ARIMA.Περά από τους δυο αυτούς τους έλεγχους μ�
 στάσιμη είναι το να πάρουμε τις πρώτες διαφορές της σειράς , δηλαδή
 ορίζουμε ως πρώτες διαφορές  <math class=chem>$y_{t}^{'} = y_{t} - y_{t - 1}$</math>.
 
-Διάγραμμα 4.1
+***Διάγραμμα 4.1***
 <img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/ARIMA%20autocorralation.png" alt="Time series">
 
 Αφού υπολογίσουμε τις διαφορές αυτές και ξανά κάνουμε τους δυο ελέγχους
@@ -182,11 +182,11 @@ p-value είναι 0.04731 και μικρότερα από 0.01 αντίστο�
 έχουμε πλέον μια στάσιμη χρονολογική σειρά μπορούμε να συνεχίσουμε με
 την εκτίμηση των παραμέτρων του μοντέλου ARIMA(p,1,q).
 
-Διάγραμμα 4.2
+***Διάγραμμα 4.2***
 
 <img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/ARIMA%20autocorralation%20WITH%20DIFF.png" alt="Time series">
 
-Διάγραμμα 4.3 Η χρονοσειρά με πρώτες διαφορές $y_{t}$ .
+***Διάγραμμα 4.3 :***  Η χρονοσειρά με πρώτες διαφορές $y_{t}$ .
 
 <img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/first%20diff.png" alt="Time series">
 
@@ -217,12 +217,11 @@ p-value είναι 0.04731 και μικρότερα από 0.01 αντίστο�
 αλλά λόγο των δευτέρων διαφορών που πήραμε μερικές χρονιές εξαφανιστήκαν
 .
 
-*Από την μέθοδο Box --Jenkins πήραμε ως εκτίμηση τον (p,d,q)=(5,1,3) *
+Από την μέθοδο Box --Jenkins πήραμε ως εκτίμηση τον (p,d,q)=(5,1,3) 
 
-*Με συντελεστές του μοντέλου τους βλέπουμε στον παρακάτω πινάκα .*
+Με συντελεστές του μοντέλου τους βλέπουμε στον παρακάτω πινάκα .
 
-Πινάκας 4.2
-
+***Πινάκας 4.2***
 <img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/ARIMA%205%2C1%2C3%20PINAKAS.png" alt="Time series">
 
 Στο παρακάτω διάγραμμα βλέπουμε την χρονολογική σειρά μαζί με την
@@ -230,7 +229,7 @@ p-value είναι 0.04731 και μικρότερα από 0.01 αντίστο�
 της πρόβλεψης . Με μπλε χρώμα βλέπουμε το διάστημα εμπιστοσύνης που μας
 δίνετε για την πρόβλεψη. *
 
-Διάγραμμα. 4.2
+***Διάγραμμα. 4.2 : ***
 
 <img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/ARIMA(5%2C1%2C3).png" alt="Time series">
 
@@ -238,15 +237,15 @@ p-value είναι 0.04731 και μικρότερα από 0.01 αντίστο�
 πρόβλεψη μας ,τις πραγματικές τιμές καθώς και δυο διάστημα εμπιστοσύνης,
 το ένα για 95% και ένα για 80% . *
 
-Πίνακας 4.3: Αποτελέσματα εκτίμησης 2008-2015
-
+***Πίνακας 4.3 :***   Αποτελέσματα εκτίμησης 2008-2015
 <img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/apotelesmata%20arima.png" alt="Time series">
+
 Παρατηρούμε πως η πρόβλεψη του μοντέλου είναι αρκετά ακριβής σε
 σύγκριση με τα πραγματικά δεδομένα .* Η αξιοπιστία μετράται µε µια
 αντικειμενική συνάρτηση (πχ RMSE root mean squared error), απόκλιση της
 πρόβλεψης από την πραγματική τιµή στην περίοδο πρόβλεψης
 
-Πίνακας 4.4
+***Πίνακας 4.4 ***
 
 <img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/RMSE.png" alt="Time series">
 
@@ -255,8 +254,7 @@ set αλλά και για το test set όποτε η ακρίβεια μας �
 για τον λόγο ότι η απόκλιση από της πραγματικές τιμές είναι αρκετά μικρή
 ποσότητα.
 
-Διάγραμμα 4.3
-
+***Διάγραμμα 4.3***
 <img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/ARIMA%20PINAKAW%20RESIDUAKS%20ELENXOS.png" alt="Time series">
 
 Από ότι παρατηρούμε από το παραπάνω διάγραμμα τα κατάλοιπα της
@@ -297,7 +295,7 @@ Trend And Seasonal Components.Το Box-Cox είναι μια οικογένει�
 χρησιμοποιείτε σε περίπτωσης που διαπιστώνεται έλλειψη κανονικότητας των
 σφαλμάτων . $\ Y_{t}^{'} = \frac{Y^{t} - 1}{t}\ ,\ t \neq 0$
 
-Διάγραμμα 5.1 : Τα δεδομένα σε λογαριθμική κλίμακα 
+***Διάγραμμα 5.1 :*** Τα δεδομένα σε λογαριθμική κλίμακα 
 <img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/BATS%20METHOD.png" alt="Time series">
 
 
@@ -307,7 +305,7 @@ Trend And Seasonal Components.Το Box-Cox είναι μια οικογένει�
 είναι καλό μοντέλο για μακροχρόνια πρόβλεψη. Από ότι φαίνεται και από
 τον παρακάτω πινάκα έχει υψηλή ακρίβεια .*
 
-Πινάκας 5.1 : Αποτελέσματα εκτίμησης 2006-2016*
+***Πινάκας 5.1 :*** Αποτελέσματα εκτίμησης 2006-2016
 <img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/pinakas%20BATS.png" alt="Time series">
 
 
@@ -317,7 +315,7 @@ Trend And Seasonal Components.Το Box-Cox είναι μια οικογένει�
 στο διάγραμμα 5.1 με τις το γαλάζιο σκούρο και γαλάζιο ανοιχτό
 αντίστοιχα 0.3355 -- 0.4198*
 
-Πίνακας 5.2
+***Πίνακας 5.2*** 
 <img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/RMSE%20BATS.png" alt="Time series">
 
 
@@ -325,7 +323,7 @@ Trend And Seasonal Components.Το Box-Cox είναι μια οικογένει�
 είναι ικανοποιητική αλλά μεγαλύτερη από το μοντέλο ARIMA που κάναμε
 προηγούμενος .
 
-6.  Υπόδειγμα Τυχαίας Διαδρομής
+# 6.  Υπόδειγμα Τυχαίας Διαδρομής
 
 Σε ένα υπόδειγμα τυχαίας διαδρομής κάθε τιμή της χρονολογικής σειράς,
 έστω* $y_{t}$ *προκύπτει από την αμέσως προηγούμενη της* $y_{t - 1}\ $
@@ -343,11 +341,11 @@ $Ε\left( y_{t} \right) = y_{0}$*.Η διακύμανση της και οι σ�
 των τιμών της δεν παραμένουν σταθερές διαχρονικά και άρα η* $y_{t}$
 *είναι μη στάσιμη .*
 
-Διάγραμμα 6.1
+***Διάγραμμα 6.1***
 <img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/RWF.png" alt="Time series">
 
 
-Πινάκας 6.1 Αποτελέσματα εκτίμησης 2008-2015*
+***Πινάκας 6.1*** : Αποτελέσματα εκτίμησης 2008-2015
 <img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/forcast%20table%20RWF.png" alt="Time series">
 
 
@@ -356,7 +354,7 @@ $Ε\left( y_{t} \right) = y_{0}$*.Η διακύμανση της και οι σ�
 είναι αρκετά ακριβής σε σχέση με όλες της προηγούμενες που έχουν γίνει
 έως τώρα κάτι που φαίνεται και από το διάγραμμα 6.1 . 
 
-Πινάκας 6.2
+***Πινάκας 6.2***
 <img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/RMSE%20RWF.png" alt="Time series">
 
 
@@ -374,7 +372,7 @@ $\Delta_{y_{t}} = \beta + \varepsilon_{t}$ *(4)*
 
 $y_{t} = y_{0} + \beta t + \sum_{i = 1}^{t}\varepsilon_{i}$ *(5)*
 
-***Διάγραμμα 4.2** qqplot καταλοίπων *
+***Διάγραμμα 4.2*** : qqplot καταλοίπων 
 <img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/PLOT%20RESIDUALS%20RWF.png" alt="Time series">
 
 
