@@ -83,8 +83,8 @@ command line ενός Ubuntu Server καθώς και η επεξεργασία 
 
 Διάγραμμα 3.1
 
-![Ndata.png](media/image1.png){width="3.0625in"
-height="2.5169378827646542in"}
+<img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/Ndata.png" alt="Time series">
+
 
 Στο παραπάνω διάγραμμα βλέπουμε τα δεδομένα μας και παρατηρούμε ότι
 υπάρχει μια αυξητική τάση. Έχουμε βγάλει εκτός μερικές χρονιές (2017 έως
@@ -98,8 +98,7 @@ height="2.5169378827646542in"}
 
 Διάγραμμα 3.2
 
-![logNdata.png](media/image2.png){width="2.883928258967629in"
-height="2.690476815398075in"}
+<img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/logNdata.png" alt="Time series">
 
 Στο παραπάνω διάγραμμα παρατηρούμε αρκετές μετατοπίσεις από το 1936 έως
 1970 περίπου τα όποια πριν φαινόντουσαν να έχουν μια σταθερή αυξητική
@@ -173,10 +172,7 @@ ARIMA.Περά από τους δυο αυτούς τους έλεγχους μ�
 ορίζουμε ως πρώτες διαφορές  <math class=chem>$y_{t}^{'} = y_{t} - y_{t - 1}$</math>.
 
 Διάγραμμα 4.1
-
-![ARIMA
-autocorralation.png](media/image3.png){width="3.002697944006999in"
-height="2.4583333333333335in"}
+<img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/ARIMA%20autocorralation.png" alt="Time series">
 
 Αφού υπολογίσουμε τις διαφορές αυτές και ξανά κάνουμε τους δυο ελέγχους
 τότε παρατηρούμε πως δεν θα δεχτούμε τις μηδενικές υπόθεσης διότι τα
@@ -188,14 +184,11 @@ p-value είναι 0.04731 και μικρότερα από 0.01 αντίστο�
 
 Διάγραμμα 4.2
 
-![ARIMA autocorralation WITH
-DIFF.png](media/image4.png){width="3.0048031496062992in"
-height="2.0256408573928257in"}
+<img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/ARIMA%20autocorralation%20WITH%20DIFF.png" alt="Time series">
 
 Διάγραμμα 4.3 Η χρονοσειρά με πρώτες διαφορές $y_{t}$ .
 
-![first diff.png](media/image5.png){width="3.379166666666667in"
-height="3.0083333333333333in"}
+<img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/first%20diff.png" alt="Time series">
 
 Μέθοδος Box-Jenkins
 
@@ -230,9 +223,7 @@ height="3.0083333333333333in"}
 
 Πινάκας 4.2
 
-![ARIMA 5,1,3
-PINAKAS.png](media/image6.png){width="3.1685608048993874in"
-height="1.6136362642169728in"}
+<img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/ARIMA%205%2C1%2C3%20PINAKAS.png" alt="Time series">
 
 Στο παρακάτω διάγραμμα βλέπουμε την χρονολογική σειρά μαζί με την
 πρόβλεψη όπου έγινε ,καθώς και τα πραγματικά δεδομένα για τις χρονιές
@@ -241,8 +232,7 @@ height="1.6136362642169728in"}
 
 Διάγραμμα. 4.2
 
-![ARIMA(5,1,3).png](media/image7.png){width="3.459935476815398in"
-height="2.05128280839895in"}
+<img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/ARIMA(5%2C1%2C3).png" alt="Time series">
 
 Στον πινάκα 4.3 βλέπουμε τα αριθμητικά αποτελέσματα που πήραμε από την
 πρόβλεψη μας ,τις πραγματικές τιμές καθώς και δυο διάστημα εμπιστοσύνης,
@@ -250,9 +240,7 @@ height="2.05128280839895in"}
 
 Πίνακας 4.3: Αποτελέσματα εκτίμησης 2008-2015
 
-![apotelesmata arima.png](media/image8.png){width="3.4291666666666667in"
-height="1.2583333333333333in"}
-
+<img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/apotelesmata%20arima.png" alt="Time series">
 Παρατηρούμε πως η πρόβλεψη του μοντέλου είναι αρκετά ακριβής σε
 σύγκριση με τα πραγματικά δεδομένα .* Η αξιοπιστία μετράται µε µια
 αντικειμενική συνάρτηση (πχ RMSE root mean squared error), απόκλιση της
@@ -260,8 +248,7 @@ height="1.2583333333333333in"}
 
 Πίνακας 4.4
 
-![RMSE.png](media/image9.png){width="3.1875in"
-height="1.2013888888888888in"}
+<img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/RMSE.png" alt="Time series">
 
 Από ότι βλέπουμε η τιμή του RMSE είναι αρκετά μικρή και για το Train
 set αλλά και για το test set όποτε η ακρίβεια μας είναι αρκετά μεγάλη
@@ -270,9 +257,7 @@ set αλλά και για το test set όποτε η ακρίβεια μας �
 
 Διάγραμμα 4.3
 
-![ARIMA PINAKAW RESIDUAKS
-ELENXOS.png](media/image10.png){width="3.0034667541557307in"
-height="2.675in"}
+<img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/ARIMA%20PINAKAW%20RESIDUAKS%20ELENXOS.png" alt="Time series">
 
 Από ότι παρατηρούμε από το παραπάνω διάγραμμα τα κατάλοιπα της
 παλινδρόμησης ακολούθου περίπου κανονική κατανομή, για την ακρίβεια έχει
@@ -313,9 +298,8 @@ Trend And Seasonal Components.Το Box-Cox είναι μια οικογένει�
 σφαλμάτων . $\ Y_{t}^{'} = \frac{Y^{t} - 1}{t}\ ,\ t \neq 0$
 
 Διάγραμμα 5.1 : Τα δεδομένα σε λογαριθμική κλίμακα 
+<img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/BATS%20METHOD.png" alt="Time series">
 
-![BATS METHOD.png](media/image11.png){width="3.2419870953630796in"
-height="1.7628204286964129in"}
 
 Από ότι βλέπουμε από το παραπάνω διάγραμμα το μοντέλο αυτό είναι καλό
 διότι η παράβλεψη μας είναι αρκετά ακριβής αν και έχει μια αυξητική τάση
@@ -324,9 +308,8 @@ height="1.7628204286964129in"}
 τον παρακάτω πινάκα έχει υψηλή ακρίβεια .*
 
 Πινάκας 5.1 : Αποτελέσματα εκτίμησης 2006-2016*
+<img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/pinakas%20BATS.png" alt="Time series">
 
-![pinakas BATS.png](media/image12.png){width="3.220833333333333in"
-height="1.5833333333333333in"}
 
 Στον παραπάνω πινάκα βλέπουμε τα αριθμητικά αποτελέσματα που έχουμε από
 την πρόβλεψη του μοντέλου καθώς επίσης, όπως και προηγουμένως δίνονται
@@ -335,9 +318,8 @@ height="1.5833333333333333in"}
 αντίστοιχα 0.3355 -- 0.4198*
 
 Πίνακας 5.2
+<img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/RMSE%20BATS.png" alt="Time series">
 
-![RMSE BATS.png](media/image13.png){width="3.220833333333333in"
-height="0.9166666666666666in"}
 
 Η απόκλιση της πρόβλεψης από την πραγματική τιµή στην περίοδο πρόβλεψης
 είναι ικανοποιητική αλλά μεγαλύτερη από το μοντέλο ARIMA που κάναμε
@@ -362,14 +344,12 @@ $Ε\left( y_{t} \right) = y_{0}$*.Η διακύμανση της και οι σ�
 *είναι μη στάσιμη .*
 
 Διάγραμμα 6.1
+<img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/RWF.png" alt="Time series">
 
-![RWF.png](media/image14.png){width="3.1041666666666665in"
-height="2.2916666666666665in"}
 
 Πινάκας 6.1 Αποτελέσματα εκτίμησης 2008-2015*
+<img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/forcast%20table%20RWF.png" alt="Time series">
 
-![forcast table RWF.png](media/image15.png){width="3.1458333333333335in"
-height="1.2833333333333334in"}
 
 Από ότι παρατηρούμε από τον παρακάτω πινάκα αποτελεσμάτων της πρόβλεψης
 που έγινε με την μέθοδο του τυχαίου περιπάτου , Η πρόβλεψη που έγινε
@@ -377,14 +357,14 @@ height="1.2833333333333334in"}
 έως τώρα κάτι που φαίνεται και από το διάγραμμα 6.1 . 
 
 Πινάκας 6.2
-![RMSE RWF.png](media/image16.png){width="3.2946423884514435in"
-height="1.3988101487314086in"}
+<img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/RMSE%20RWF.png" alt="Time series">
 
-*Το υπόδειγμα του τυχαίου περιπάτου που εκτελέσαμε μας έβγαλε και μια
+
+Το υπόδειγμα του τυχαίου περιπάτου που εκτελέσαμε μας έβγαλε και μια
 σταθερά (drift=0.9831 ) . Αν ένα υπόδειγμα της τυχαίας διαδρομής
 περιλαμβάνει και τον σταθερό ορό αυτόν τότε έχουμε υπόδειγμα τυχαίας
 διαδρομής με σταθερά . Όπου β (drift) είναι η σταθερά της παρακάτω
-εξίσωσης .*
+εξίσωσης .
 
 $\Delta_{y_{t}} = \beta + \varepsilon_{t}$ *(4)*
 
@@ -395,15 +375,13 @@ $\Delta_{y_{t}} = \beta + \varepsilon_{t}$ *(4)*
 $y_{t} = y_{0} + \beta t + \sum_{i = 1}^{t}\varepsilon_{i}$ *(5)*
 
 ***Διάγραμμα 4.2** qqplot καταλοίπων *
+<img src="https://github.com/AniAjdini/Time-Series-Analysis-/blob/master/photo/PLOT%20RESIDUALS%20RWF.png" alt="Time series">
 
-![PLOT RESIDUALS
-RWF.png](media/image17.png){width="2.9942311898512686in"
-height="2.134615048118985in"}
 
-*Παρατηρούμε ότι και σε αυτό το μοντέλο τα σφάλματα έχουν πολύ έντονα
+Παρατηρούμε ότι και σε αυτό το μοντέλο τα σφάλματα έχουν πολύ έντονα
 παχιές ουρές κάτι το όποιο αναμένετε γιατί στις περισσότερες
 χρονολογικές σειρές παρατηρείτε αυτό το φαινόμενο, και θυμίζουν
-περισσότερο ότι ακλουθούνε την t-student κατανομή και όχι κανονική. *
+περισσότερο ότι ακλουθούνε την t-student κατανομή και όχι κανονική. 
 
 7.  ***Αποτελέσματα Μοντέλων***
 
